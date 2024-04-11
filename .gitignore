@@ -1,0 +1,39 @@
+# 忽略以下文件和目录
+# 在目录中使用*表示匹配该目录下的所有内容
+
+# macOS系统临时文件
+.DS_Store
+
+# Windows系统临时文件
+Thumbs.db
+
+# Python的虚拟环境
+venv/
+*.pyc
+
+# 已编译的Python文件
+__pycache__/
+
+# 编译产生的文件
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.lz
+*.tar.lzma
+*.tgz
+*.tbz2
+*.txz
+*.zip
+*.gz
+*.bz2
+*.xz
+*.lz
+*.lzma
+
+# 敏感信息文件
+config.yml
