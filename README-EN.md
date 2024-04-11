@@ -31,15 +31,4 @@ This tool utilizes Alibaba Cloud's AI services to implement translation function
 4. **View Translation Results**
    - The translated results will be saved in the `i18n/zh-cn/docusaurus-plugin-content-docs/current` directory.
 
-## Example Usage
-
-```python
-import os
-import yaml
-import dashscope
-from http import HTTPStatus
-
-# Code omitted...
-```
-
 Translate the above Markdown document into English.

@@ -31,13 +31,3 @@
 4. **查看翻译结果**
    - 翻译结果将保存在 `i18n/zh-cn/docusaurus-plugin-content-docs/current` 目录下。
 
-## 示例用法
-
-```python
-import os
-import yaml
-import dashscope
-from http import HTTPStatus
-
-# 代码省略...
-
