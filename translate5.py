@@ -2,7 +2,7 @@ import dashscope
 from http import HTTPStatus
 
 # 设置阿里云API密钥
-dashscope.api_key = 'sk-ba382c83374640c4bb8d36535acbfc6b'
+dashscope.api_key = 'sk-************************'
 
 def call_with_prompt(prompt):
     response = dashscope.Generation.call(
