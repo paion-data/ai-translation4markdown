@@ -13,7 +13,7 @@ This tool utilizes Alibaba Cloud's AI services to implement translation function
      ```yaml
      api_key: YOUR_API_KEY
      ```
-   - Note: Although it is possible to store the key in plain text, this is not secure. It is recommended to use environment variables for sensitive information.
+
 
 2. **Install Dependencies**
    - Using a Python environment, install the required libraries:
