@@ -1,8 +1,14 @@
+import os
 import dashscope
 from http import HTTPStatus
 
+# 从环境变量中读取阿里云API密钥
+api_key = os.environ.get('ALIYUN_API_KEY')
+if api_key is None:
+    raise ValueError("ALIYUN_API_KEY 环境变量未设置")
+
 # 设置阿里云API密钥
-dashscope.api_key = 'sk-************************'
+dashscope.api_key = api_key
 
 def call_with_prompt(prompt):
     response = dashscope.Generation.call(
@@ -34,6 +40,7 @@ def translate_markdown_and_export(input_file, output_file):
 input_file = 'docs/example.md'  # 输入Markdown文件路径
 output_file = 'i18n/zh-cn/docusaurus-plugin-content-docs/current/outputExample.md'  # 输出Markdown文件路径
 translate_markdown_and_export(input_file, output_file)
+
 
 
 
